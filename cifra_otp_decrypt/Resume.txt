@@ -1,3 +1,3 @@
-Decriptando cifra otp, 3 textos encriptados com a mesma frase,
+Decriptando cifra otp, 3 textos encriptados com a mesma chave,
 funciona tambem com 2, com 1 texto pode funcionar, 
 mais demora mais tempo.
