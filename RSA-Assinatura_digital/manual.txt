@@ -1,0 +1,20 @@
+Implementacao assinatura digital usando c
+
+Vamos lá !!!
+
+Primeiramente execute no terminal:
+	gcc -c server.c -o server
+	gcc -c rsa.c -o rsa.o
+	gcc -c sha1.c -o sha1.o
+	gcc server.o sha1.o rsa.o -o servidor
+	./servidor
+
+em seguida: 
+	gcc -c client.c -o client.o 
+	gcc -c rsa.c -o rsa.o
+	gcc -c sha1.c -o sha1.o
+	gcc client.o sha1.o rsa.o -o cliente
+	./cliente
+
+pronto, conexao estabelecida, eu espero, agora é so se divertir:
+

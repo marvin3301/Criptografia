@@ -1,0 +1,5 @@
+Implementacao Rsa em c
+
+pra começar tu da um rm *.o pra apagar os objetos
+
+depois da um make e depois ./teste 
